@@ -194,11 +194,11 @@ html,body {
     position: relative;
 }
 
-.main__container h1 {
-    color: #f36300;
-    font-size: 4rem;
-    font-family: relation, sans-serif;
-    margin-top: 0;
+
+#about_title {
+    width: 200px;
+    height: auto;
+    margin: 0;
     margin-bottom: 30px;
 }
 
@@ -393,8 +393,10 @@ html,body {
         height: auto;
     }
 
-    .main__container h1 {
-        font-size: 3rem;
+    #about_title {
+        width: 160px;
+        margin: 0;
+        margin-bottom: 30px;
     }
 }
 
@@ -492,6 +494,7 @@ html,body {
 
 .website_rights p{
     font-family: 'Sofia Pro Extra Light', sans-serif;
+    font-size: 0.8rem;
 }
 
 @media screen and (max-width: 820px) {

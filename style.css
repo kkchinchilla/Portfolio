@@ -243,12 +243,10 @@ html,body {
     padding-bottom: 80px;
 }
 
-.works h1 {
-    color: #f36300;
-    font-family: relation, sans-serif;
-    font-size: 4rem;
-    line-height: 1.5;
-    margin-bottom: 50px;
+#work_title {
+    width: 160px;
+    height: auto;
+    margin-bottom: 100px;
 }
 
 .works h2 {
@@ -359,6 +357,13 @@ html,body {
         font-size: 1.3rem;
         margin-left: 0;
     }
+
+    #work_title {
+        width: 140px;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
 }
 
 @media screen and (max-width: 480px){
@@ -398,12 +403,14 @@ html,body {
         padding: 0;
     }
 
-    .works {
-        padding-top: 80px;
+    #work_title {
+        width: 100px;
+        height: auto;
+        margin-bottom: 70px;
     }
 
-    .works h1{
-        font-size: 3rem;
+    .works {
+        padding-top: 80px;
     }
 
     .works h2{
@@ -516,6 +523,7 @@ html,body {
 
 .website_rights p{
     font-family: 'Sofia Pro Extra Light', sans-serif;
+    font-size: 0.8rem;
 }
 
 @media screen and (max-width: 820px) {

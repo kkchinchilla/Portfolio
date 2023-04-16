@@ -2,11 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Sofia Pro', sans-serif;
 }
 
 html,body {
-    background-image: url("images/bg.png");
+    background-color: #fff;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,218 +183,306 @@ html,body {
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    margin-top: 66px;
+    margin-top: 0;
     height: auto;
     min-height: 85vh;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 10px;
-    padding-top: 25px;
+    padding-top: 0;
     position: relative;
 }
 
-.main__container h1 {
-    color: #f36300;
-    font-size: 4rem;
-    font-family: relation, sans-serif;
-    margin-top: 0;
+.previous {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#previous {
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    height: auto;
+    transform: translateY(-30px);
+}
+
+.project_title {
+    width: 40%;
+    height: auto;
+    transform: translateY(-100px);
+}
+
+.overview {
+    width: 60%;
+    transform: translateY(-80px);
+}
+
+.subhead {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 15px;
+    transform: translate(-15px);
+}
+
+.paragraph {
+    width: 60%;
+}
+
+.overview p {
+    font-family: 'Sofia Pro Extra Light',sans-serif;
+    font-size: 1.1rem;
+}
+
+.paragraph p {
+    font-family: 'Sofia Pro Extra Light',sans-serif;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.hero_section a{
+    text-decoration: none;
+}
+
+#fm_hero {
+    width: 500px;
+    height: auto;
     margin-bottom: 30px;
 }
 
-#profilepic {
-    width: 200px;
-    height: auto;
-    margin-top: 0;
-    margin-bottom: 10px;
+#fm_mobile {
+    display: none;
 }
 
-.intro_block {
-    margin-top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.intro_block h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-.profile_block {
-    color: #f36300;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.title{
-    color: #f36300;
-    display: flex;
-    justify-content: center;
-    font-size: 3.5rem;
-    line-height: 0;
-    font-family: relation-one, sans-serif;
-    font-weight: 200;
-    margin-top: 100px;
-    margin-bottom: 0;
-}
-
-.intro {
-    width: 50%;
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    display: flex;
-    justify-content: center;
-    transform: translateY(-5px);
-}
-
-.intro p{
-    color: #f36300;
-    line-height: 1.5;
-    font-size: 1.2rem;
-    font-family: 'Sofia Pro Extra Light', sans-serif;
-    font-weight: 100;
-}
-
-.sidebar {
-    color: #f36300;
-    display: flex;
-    flex-direction: column;
+.interview, .survey {
     padding: 20px;
-    padding-top: 80px;
-    padding-right: 100px;
+    padding-top: 0;
 }
 
-.sidebar h2 {
-    font-size: 1rem;
-    margin-bottom: 3px;
-    margin-top: 10px;
+#interview_img {
+    width: 220px;
+    height: auto;
 }
 
-.sidebar p {
-    font-size: 0.9rem;
-    margin: 1px;
+#survey_img {
+    width: 300px;
+    height: auto;
 }
 
-.search_area {
-    display: flex;
+#matrix {
+    width: 520px;
+    margin-bottom: 20px;
 }
 
-.form-control {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    align-items: flex-start;
-    width: 100%;
-    color: #f36300;
+.research_img h4 {
+    margin-top: 8px;
+    font-family: 'Sofia Pro Light', sans-serif;
+    font-size: 0.8rem;
 }
 
-.form-input {
-    width: 100%;
-    border-radius: 20px;
-    padding: 0.3em 1em;
-    color: #f36300;
-    border: 2px solid #f36300;
-    margin-bottom: 10px;
-    height: 1.7rem;
-    margin-right: 5px;
-}
-
-.form-input:active {
-    border: 2px solid #f36300;
-}
-
-.form-input:focus {
-    outline: #f36300 auto 1px;
+.market_research_img h4 {
+    margin-top: 8px;
+    font-family: 'Sofia Pro Light', sans-serif;
+    font-size: 0.8rem;
 }
 
 .form-button {
     background-color: #f36300;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 6px;
     border: 2px solid #f36300;
     cursor: pointer;
     text-align: center;
-    padding: 0.3em 0.5rem;
-    font-size: 0.8rem;
-    align-self: flex-start;
+    padding: 0.2em 0.8rem;
+    font-size: 1rem;
 }
 
-.social__media--wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 90%;
-    max-width: 1000px;
+a {
+    text-decoration: none;
 }
 
-.social__icons {
+.paragraph h3 {
+    font-family: 'Sofia Pro Light', sans-serif;
+    font-size: 1.1rem;
+}
+
+.research_img {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
     align-items: center;
 }
 
-.social__icon--link {
-    color: #f36300;
-    font-size: 20px;
-    margin-right: 10px;
+.market_research_img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+}
+
+.market_research_img h4 {
+    margin-top: 8px;
+    font-family: 'Sofia Pro Light', sans-serif;
+    align-self: flex-start;
+    margin-left: 18px;
+}
+
+#fm_persona, 
+#ideation, 
+#flow_1, 
+#flow_2, 
+#flow_3,
+#fm_LF_1,
+#fm_LF_2,
+#fm_LF_3,
+#fm_moodboard,
+#fm_styleguide,
+#fm_final_1,
+#fm_final_2,
+#fm_final_3,
+#fm_final_4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#fm_final_1,
+#fm_final_2,
+#fm_final_3,
+#fm_final_4 {
+    margin-top: 8px;
+}
+
+#case_study_btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
 @media screen and (max-width: 900px){
 
-    body {
-        background-image: url("images/bg-mobile.png");
-    }
-
     .main__container {
-        padding: 10px 50px;
-        padding-top: 80px;
-        margin-top: 20px;
+        padding: 0;
+        margin: 0;
     }
 
-    #profilepic {
-    width: 200px;
+    #previous {
+        transform: translateY(-30px);
+    }
+    #matrix {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__container {
+        padding-top: 130px;
+    }
+
+    .project_title {
+        width: 50%;
+        transform: translateY(-80px);
+    }
+
+    #previous {
+        display: none;
+    }
+
+    .overview {
+        width: 70%;
+        transform: translateY(-50px);
+    }
+
+    .paragraph {
+        width: 70%;
+    }
+
+    .subhead {
+        width: 70%;
+    }
+
+    #interview_img {
+    width: 176px;
     height: auto;
-    margin-bottom: 10px;
     }
 
-    .intro {
-        width: 80%;
-        font-size: 1rem;
-        margin-top: 30px;
+    #survey_img {
+        width: 240px;
+        height: auto;
+    }
+
+    #matrix {
+        width: 416px;
     }
 }
 
-@media screen and (max-width: 700px) {
-    .main__container {
-        padding: 10px 50px;
-        margin-top: 66px;
-    }
-    .title {
-        font-size: 2.5em;
+@media screen and (max-width: 600px){
+    #fm_mobile {
+        width: 180px;
+        height: auto;
+        display: block;
+        margin-bottom: 30px;
     }
 
-    .intro_block{
-    flex-direction: column;
+    #fm_hero{
+        display: none;
     }
-    .intro {
-        width: 80%;
+
+    .overview p {
         font-size: 1rem;
-        margin-top: 30px;
     }
-}
 
-@media screen and (max-width: 480px) {
-    #profilepic {
+    .paragraph p {
+        font-size: 1rem;
+    }
+
+    #interview_img {
+    width: 132px;
+    height: auto;
+    }
+
+    #survey_img {
         width: 180px;
         height: auto;
     }
 
-    .main__container h1 {
-        font-size: 3rem;
+    #matrix {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project_title {
+        width: 65%;
+    }
+    #interview_img {
+    width: 110px;
+    height: auto;
+    }
+
+    #survey_img {
+        width: 150px;
+        height: auto;
+    }
+
+    .research_img {
+        transform: translateX(-20px);
+    }
+
+    #matrix {
+        width: 300px;
     }
 }
 
@@ -484,6 +572,7 @@ html,body {
 }
 
 .website_rights {
+    font-size: 0.8rem;
     color: #f36300;
     padding-left: 60px;
     align-items: center;
