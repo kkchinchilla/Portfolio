@@ -302,7 +302,7 @@ html,body {
     margin-right: 5px;
 }
 
-.form-input: active{
+.form-input:active {
     border: 2px solid #f36300;
 }
 
