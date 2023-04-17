@@ -481,6 +481,12 @@ a {
     #wwf_hero {
         width: 400px;
     }
+
+    iframe {
+        width: 480px;
+        height: 275px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -568,6 +574,12 @@ a {
     #matrix {
         width: 400px;
     }
+
+    iframe {
+        width: 400px;
+        height: 229px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -598,6 +610,19 @@ a {
 
     #matrix {
         width: 300px;
+    }
+
+    iframe {
+        width: 320px;
+        height: 172px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    iframe {
+        width: 280px;
+        height: 159px;
     }
 }
 
