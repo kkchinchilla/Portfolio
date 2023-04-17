@@ -432,7 +432,11 @@ a {
 #wj_5,
 #wj_6,
 #wj_7,
-#crocker_moodboard {
+#crocker_moodboard,
+#crocker_logo,
+#crocker_clearspace,
+#crocker_exploration,
+#crocker_final_poster {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
