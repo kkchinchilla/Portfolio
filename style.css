@@ -413,11 +413,13 @@ html,body {
         padding-top: 80px;
     }
 
-    .works h2{
+    .work__label h2 {
+        font-family: 'Sofia Pro', sans-serif;
         font-size: 1.2rem;
     }
 
-    .work p {
+    .work__label p{
+        font-family: 'Sofia Pro Extra Light', sans-serif;
         font-size: 0.9rem;
     }
 
