@@ -234,13 +234,13 @@ html,body {
 }
 
 .overview p {
-    font-family: 'Sofia Pro Extra Light',sans-serif;
+    font-family: 'Sofia Pro Extra Light', sofia-pro ,sans-serif;
     font-size: 1.1rem;
     line-height: 1.4em;
 }
 
 .paragraph p {
-    font-family: 'Sofia Pro Extra Light',sans-serif;
+    font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
     font-size: 1.1rem;
     padding-bottom: 20px;
     line-height: 1.4em;
