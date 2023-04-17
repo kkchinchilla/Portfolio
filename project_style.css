@@ -375,7 +375,10 @@ a {
 
 #flow_1, 
 #flow_2, 
-#flow_3 {
+#flow_3,
+#fm_LF_1,
+#fm_LF_2,
+#fm_LF_3 {
     margin-top: 5px;
 }
 
