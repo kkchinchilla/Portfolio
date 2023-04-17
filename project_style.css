@@ -434,7 +434,7 @@ a {
 #wj_7,
 #crocker_moodboard,
 #crocker_logo,
-#crocker_clearspace,
+#crocker_styleguide,
 #crocker_exploration,
 #crocker_final_poster,
 #crocker_mobile,
@@ -442,6 +442,12 @@ a {
 #crocker_desktop {
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
+}
+
+#crocker_clearspace {
+    width: 60%;
+    margin-top: 8px;
     margin-bottom: 20px;
 }
 
