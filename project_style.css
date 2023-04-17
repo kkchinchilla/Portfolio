@@ -466,7 +466,8 @@ a {
 #t5_poster,
 #t5_ig_ad,
 #t5_wall_ad,
-#t5_userflow {
+#t5_userflow,
+#t5_merchandise {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
@@ -499,6 +500,8 @@ a {
 #wwf_11,
 #t5_poster,
 #t5_ig_ad,
+#t5_userflow,
+#t5_merchandise,
 #t5_wall_ad,
 #crocker_exploration,
 #crocker_final_poster,
