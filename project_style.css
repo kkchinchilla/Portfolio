@@ -292,15 +292,15 @@ html,body {
 
 .research_img h4 {
     margin-top: 8px;
-    font-family: 'Sofia Pro Light', sofia-pro, sans-serif;
-    font-weight: 400;
+    font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
+    font-weight: 300;
     font-size: 0.8rem;
 }
 
 .market_research_img h4 {
     margin-top: 8px;
-    font-family: 'Sofia Pro Light', sofia-pro, sans-serif;
-    font-weight: 400;
+    font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
+    font-weight: 300;
     font-size: 0.8rem;
 }
 
@@ -320,8 +320,8 @@ a {
 }
 
 .paragraph h3 {
-    font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
-    font-weight: 300;
+    font-family: 'Sofia Pro Light', sofia-pro, sans-serif;
+    font-weight: 400;
     font-size: 1.1rem;
 }
 
@@ -371,6 +371,12 @@ a {
 #fm_final_3,
 #fm_final_4 {
     margin-top: 8px;
+}
+
+#flow_1, 
+#flow_2, 
+#flow_3 {
+    margin-top: 5px;
 }
 
 #case_study_btn {
