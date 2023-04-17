@@ -267,6 +267,12 @@ html,body {
     margin-bottom: 30px;
 }
 
+#wwf_hero {
+    width: 450px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
 #fm_mobile {
     display: none;
 }
@@ -321,11 +327,18 @@ html,body {
     border: 2px solid #7e341b;
 }
 
+#wwf_btn {
+    background-color: #000;
+    border: 2px solid #000;
+}
+
 .paragraph .list_items p {
     padding-bottom: 0;
 }
 
 .list_items {
+    display: flex;
+    flex-direction: column;
     padding-bottom: 10px;
 }
 
@@ -391,7 +404,24 @@ a {
 #wa_2,
 #wa_3,
 #wa_4,
-#wa_arrive {
+#wa_arrive,
+#wwf_persona,
+#wwf_styleguide,
+#wwf_moodboard,
+#wwf_styletile,
+#wwf_ad,
+#wwf_sitemap,
+#wwf_1,
+#wwf_2,
+#wwf_3,
+#wwf_4,
+#wwf_5,
+#wwf_6,
+#wwf_7,
+#wwf_8,
+#wwf_9,
+#wwf_10,
+#wwf_11 {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
@@ -437,6 +467,10 @@ a {
         width: 500px;
         height: auto;
         margin-bottom: 30px;
+    }
+
+    #wwf_hero {
+        width: 400px;
     }
 }
 
@@ -498,6 +532,10 @@ a {
         width: 400px;
     }
 
+    #wwf_hero {
+        width: 300px;
+    }
+
     .overview p {
         font-size: 1rem;
         line-height: 1.6em;
@@ -539,6 +577,10 @@ a {
 
     #wa_hero {
         width: 300px;
+    }
+
+    #wwf_hero {
+        width: 100%;
     }
 
     .research_img {
