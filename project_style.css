@@ -260,8 +260,9 @@ html,body {
     text-decoration: none;
 }
 
-#fm_hero {
-    width: 500px;
+#fm_hero,
+#wa_hero {
+    width: 600px;
     height: auto;
     margin-bottom: 30px;
 }
@@ -305,14 +306,34 @@ html,body {
 }
 
 .form-button {
-    background-color: #f36300;
+    background-color: #ff6600;
     color: #fff;
     border-radius: 6px;
-    border: 2px solid #f36300;
+    border: 2px solid #ff6600;
     cursor: pointer;
     text-align: center;
     padding: 0.2em 0.8rem;
     font-size: 1rem;
+}
+
+#wa_btn {
+    background-color: #7e341b;
+    border: 2px solid #7e341b;
+}
+
+.paragraph .list_items p {
+    padding-bottom: 0;
+}
+
+.list_items {
+    padding-bottom: 10px;
+}
+
+.list_items p {
+    padding-left: 24px;
+    font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
 }
 
 a {
@@ -360,7 +381,17 @@ a {
 #fm_final_1,
 #fm_final_2,
 #fm_final_3,
-#fm_final_4 {
+#fm_final_4,
+#wa_persona,
+#wa_styleguide,
+#board,
+#wa_project,
+#wa_schedule,
+#wa_1,
+#wa_2,
+#wa_3,
+#wa_4,
+#wa_arrive {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
@@ -400,6 +431,12 @@ a {
     }
     #matrix {
         width: 480px;
+    }
+
+    #wa_hero {
+        width: 500px;
+        height: auto;
+        margin-bottom: 30px;
     }
 }
 
@@ -457,6 +494,10 @@ a {
         display: none;
     }
 
+    #wa_hero {
+        width: 400px;
+    }
+
     .overview p {
         font-size: 1rem;
         line-height: 1.6em;
@@ -494,6 +535,10 @@ a {
     #survey_img {
         width: 150px;
         height: auto;
+    }
+
+    #wa_hero {
+        width: 300px;
     }
 
     .research_img {
