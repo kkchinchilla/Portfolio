@@ -202,8 +202,8 @@ html,body {
     line-height: 1.5;
     margin-top: 1.5rem;
     font-size: 1.3rem;
-    font-family: 'Sofia Pro Light', sans-serif;
-    font-weight: 100;
+    font-family: 'Sofia Pro Light', sofia-pro, sans-serif;
+    font-weight: 300;
     margin-bottom: 30px;
 }
 
@@ -233,7 +233,8 @@ html,body {
     padding-bottom: 30px;
     position: relative;
     color: #f36300;
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro', sofia-pro, sans-serif;
+    font-weight: 400;
 }
 
 .work__container {
@@ -250,13 +251,15 @@ html,body {
 }
 
 .work__label h2 {
-    font-family: 'Sofia Pro', sans-serif;
+    font-family: 'Sofia Pro', sofia-pro, sans-serif;
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
 .work__label p{
-    font-family: 'Sofia Pro Extra Light', sans-serif;
+    font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
+    font-weight: 300;
     font-size: 1rem;
     width: 190px;
 }
