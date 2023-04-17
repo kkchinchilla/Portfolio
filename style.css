@@ -383,7 +383,6 @@ html,body {
         width: 60vw;
         height: auto;
         margin-bottom: 10px;
-        transform: translateX(20px);
     }
 
     #cake {
