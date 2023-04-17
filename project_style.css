@@ -261,7 +261,8 @@ html,body {
 }
 
 #fm_hero,
-#wa_hero {
+#wa_hero,
+#crocker_hero {
     width: 600px;
     height: auto;
     margin-bottom: 30px;
@@ -430,7 +431,8 @@ a {
 #wj_4,
 #wj_5,
 #wj_6,
-#wj_7 {
+#wj_7,
+#crocker_moodboard {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
@@ -472,7 +474,8 @@ a {
         width: 480px;
     }
 
-    #wa_hero {
+    #wa_hero, 
+    #crocker_hero {
         width: 500px;
         height: auto;
         margin-bottom: 30px;
@@ -543,7 +546,8 @@ a {
         display: none;
     }
 
-    #wa_hero {
+    #wa_hero,
+    #crocker_hero {
         width: 400px;
     }
 
@@ -596,7 +600,8 @@ a {
         height: auto;
     }
 
-    #wa_hero {
+    #wa_hero,
+    #crocker_hero {
         width: 300px;
     }
 
