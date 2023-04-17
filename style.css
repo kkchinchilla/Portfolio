@@ -482,7 +482,8 @@ html,body {
 }
 
 .footer__link--items h2 {
-    font-family: 'Sofia Pro Light', sans-serif;
+    font-family: 'Sofia Pro Light', sofia-pro, sans-serif;
+    font-weight: 400;
     margin-bottom: 6px;
 }
 
@@ -491,7 +492,8 @@ html,body {
 }
 
 .footer__link--items a {
-    font-family: 'Sofia Pro Extra Light', sans-serif;
+    font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
+    font-weight: 300;
     display: flex;
     color: #f36300;
     text-decoration: none;
@@ -504,7 +506,9 @@ html,body {
 }
 
 .footer__link--items p {
-    font-family: 'Sofia Pro Extra Light', sans-serif;
+    font-size: 1rem;
+    font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
+    font-weight: 300;
     transform: translateY(-4px);
 }
 
@@ -514,6 +518,7 @@ html,body {
 }
 
 .website_rights {
+    font-size: 0.8rem;
     color: #f36300;
     padding-left: 60px;
     align-items: center;
@@ -521,8 +526,8 @@ html,body {
 }
 
 .website_rights p{
-    font-family: 'Sofia Pro Extra Light', sans-serif;
-    font-size: 0.8rem;
+    font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
+    font-weight: 300;
 }
 
 @media screen and (max-width: 820px) {
@@ -532,10 +537,6 @@ html,body {
 
     .website_rights {
         margin-bottom: 2rem;
-    }
-
-    .social__media--wrap {
-        flex-direction: column;
     }
 }
 
@@ -566,7 +567,7 @@ html,body {
         width: 100%;
     }
 
-    #footer_contact i {
+    #footer_contact i{
         font-size: 1.3rem;
         margin-right: 15px;
     }
