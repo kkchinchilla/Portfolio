@@ -384,6 +384,7 @@ html,body {
         width: 80%;
         font-size: 1rem;
         margin-top: 30px;
+        margin-left: 0;
     }
 }
 
@@ -530,9 +531,9 @@ html,body {
 @media screen and (max-width: 480px) {
 
     .intro {
-        width: 70%;
+        width: 100%;
     }
-    
+
     .footer__link--wrapper{
         margin-left: 40px;
     }
