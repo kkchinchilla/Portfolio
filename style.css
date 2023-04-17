@@ -249,13 +249,13 @@ html,body {
     margin-bottom: 100px;
 }
 
-.works h2 {
+.work__label h2 {
     font-family: 'Sofia Pro', sans-serif;
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
-.works p{
+.work__label p{
     font-family: 'Sofia Pro Extra Light', sans-serif;
     font-size: 1rem;
     width: 190px;
