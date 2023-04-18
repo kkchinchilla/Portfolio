@@ -244,6 +244,18 @@ html,body {
     padding-bottom: 80px;
 }
 
+.work__container a {
+    text-decoration: none;
+    color: #f36300;
+}
+
+
+.work__container:hover {
+    color: #f9b678;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
 #work_title {
     width: 160px;
     height: auto;
