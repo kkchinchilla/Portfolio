@@ -585,6 +585,14 @@ a {
     width: 30px;
 }
 
+@media screen and (max-width: 960px){
+    #fm_hero {
+        width: 520px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
+
 
 @media screen and (max-width: 900px){
 
@@ -654,6 +662,10 @@ a {
 
     #matrix {
         width: 416px;
+    }
+
+    #fm_hero {
+        width: 450px;
     }
 
     #wwf_paragraph h3 {
