@@ -40,8 +40,8 @@ html,body {
 
 #navbar__logo{
     /* background-color: #5C2466; */
-    height: 60%;
-    width: auto;
+    height: 50px;
+    width: 50px;
     /* -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -408,6 +408,11 @@ html,body {
         width: 60vw;
         height: auto;
         margin-bottom: 10px;
+    }
+
+    #navbar__logo {
+        width: 40px;
+        height: 40px;
     }
 
     #cake {
