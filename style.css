@@ -242,6 +242,16 @@ html,body {
     align-items: center;
     justify-content: center;
     padding-bottom: 80px;
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+}
+
+.work__container:nth-of-type(even){
+    transform: translateX(-200%);
+}
+
+.work__container.show {
+    transform: translateX(0);
 }
 
 .work__container a {
