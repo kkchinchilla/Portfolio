@@ -208,14 +208,20 @@ html,body {
 }
 
 .browse_work_button {
+    padding-top: 30px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 #cake {
     width: 90px;
     height: auto;
-    justify-content: end;
+    transition: all 0.35s;
+}
+
+#cake:hover {
+    transform: scale(1.05);
+    opacity: 0.6;
 }
 
 /* Work Section */

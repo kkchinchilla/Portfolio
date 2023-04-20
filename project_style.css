@@ -220,6 +220,12 @@ html,body {
     transform: translateY(-80px);
 }
 
+.overview .role {
+    font-family: 'Sofia Pro', sofia-pro, sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
 .subhead {
     width: 60%;
     display: flex;
@@ -353,21 +359,46 @@ html,body {
     text-align: center;
     padding: 0.2em 0.8rem;
     font-size: 1rem;
+    transition: all 0.35s;
+}
+
+.form-button:hover {
+    background-color: #f9b687;
+    border: 2px solid #f9b687;
+    transform: scale(1.05);
 }
 
 #wa_btn {
     background-color: #7e341b;
     border: 2px solid #7e341b;
+    transition: all 0.35s;
+}
+
+#wa_btn:hover {
+    background-color: #b38c7d;
+    border: 2px solid #b38c7d;
 }
 
 #wwf_btn {
     background-color: #000;
     border: 2px solid #000;
+    transition: all 0.35s;
+}
+
+#wwf_btn:hover {
+    background-color: #636363;
+    border: 2px solid #636363;
 }
 
 #t5_btn {
     background-color: #EA6E6E;
     border: 2px solid #EA6E6E;
+    transition: all 0.35s;
+}
+
+#t5_btn:hover {
+    background-color: #fc8e8f;
+    border: 2px solid #fc8e8f;
 }
 
 .paragraph .list_items p {
