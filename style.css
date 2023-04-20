@@ -6,7 +6,7 @@
 }
 
 html,body {
-    background-image: url("images/bg.png");
+    background-image: url("images/bg-white.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -243,6 +243,10 @@ html,body {
     font-weight: 400;
 }
 
+#work {
+    z-index: 1;
+}
+
 .work__container {
     display: flex;
     align-items: center;
@@ -333,6 +337,10 @@ html,body {
 
     body {
         background-image: url("images/bg-mobile.png");
+    }
+
+    #myVideo {
+        display: none;
     }
 
     .work__container {
@@ -480,6 +488,11 @@ html,body {
     align-items: center;
     margin-top: 60px;
     margin-bottom: 0;
+    position: relative;
+}
+
+#index-footer {
+    z-index: 1000;
 }
 
 .footer__links {
@@ -622,3 +635,15 @@ html,body {
         width: 100%;
     }
 }
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+}
+
