@@ -639,7 +639,7 @@ html,body {
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
