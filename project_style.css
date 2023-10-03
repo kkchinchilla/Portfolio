@@ -297,6 +297,8 @@ html,body {
 .h_iframe .ratio {display:block;width:100%;height:auto;}
 .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
 
+
+#mymood_hero,
 #fm_hero,
 #wa_hero,
 #crocker_hero,
@@ -312,6 +314,7 @@ html,body {
     margin-bottom: 30px;
 }
 
+#mymood_mobile,
 #fm_mobile {
     display: none;
 }
@@ -366,6 +369,18 @@ html,body {
     background-color: #f9b687;
     border: 2px solid #f9b687;
     transform: scale(1.05);
+}
+
+#mymood_btn {
+    background-color: #715cc6;
+    border: 2px solid #715cc6;
+    transition: all 0.35s;
+}
+
+#mymood_btn:hover {
+    background-color: #eaecfe;
+    border: 2px solid #eaecfe;
+    color:#715cc6;
 }
 
 #wa_btn {
@@ -436,12 +451,27 @@ a {
     padding: 0;
 }
 
+#mymood_consultant {
+    flex-direction: column;
+}
+
 .market_research_img h4 {
     margin-top: 8px;
     font-family: 'Sofia Pro Extra Light', sofia-pro, sans-serif;
     font-weight: 300;
     align-self: flex-start;
     margin-left: 18px;
+}
+
+#fred,
+#joseph {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 
@@ -691,10 +721,16 @@ a {
         height: auto;
     }
 
+    #fred,
+    #joseph {
+        width: 50%;
+    }
+
     #matrix {
         width: 416px;
     }
 
+    #mymood_hero,
     #fm_hero {
         width: 450px;
     }
@@ -705,6 +741,7 @@ a {
 }
 
 @media screen and (max-width: 600px){
+    #mymood_mobile,
     #fm_mobile {
         width: 180px;
         height: auto;
@@ -712,6 +749,7 @@ a {
         margin-bottom: 30px;
     }
 
+    #mymood_hero,
     #fm_hero{
         display: none;
     }

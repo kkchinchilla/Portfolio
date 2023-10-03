@@ -315,6 +315,16 @@ html,body {
     margin-right: 130px;
 }
 
+#mymood-deco {
+    box-sizing: border-box;
+    background-image: url("images/wwf-deco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 70px;
+    margin: 0;
+}
+
 #fm-deco {
     box-sizing: border-box;
     background-image: url("images/fm-deco.png");
@@ -380,6 +390,7 @@ html,body {
     justify-content: center;
 }
 
+#mymood,
 #fitmo,
 #dashboard,
 #wwf,
@@ -534,6 +545,7 @@ html,body {
         font-size: 0.9rem;
     }
 
+    #mymood,
     #fitmo,
     #dashboard,
     #wwf,
