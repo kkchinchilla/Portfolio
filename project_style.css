@@ -295,7 +295,7 @@ html,body {
     margin-bottom: 20px;
 }
 .h_iframe .ratio {display:block;width:100%;height:auto;}
-.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:auto; aspect-ratio: 16 / 9;}
+.h_iframe iframe {width:100%; height:auto; aspect-ratio: 16 / 9;}
 
 
 #mymood_hero,
