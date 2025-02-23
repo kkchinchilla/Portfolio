@@ -728,8 +728,3 @@ html,body {
   height: 108%;
   z-index: -999;
 }
-
-.h_iframe iframe{
-    width: 768px;
-    height: 432px;
-}
