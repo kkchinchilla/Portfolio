@@ -294,7 +294,7 @@ html,body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe {display:block;width:100%;height:auto;}
 .h_iframe iframe {width:100%; height:auto; aspect-ratio: 16 / 9;}
 
 
